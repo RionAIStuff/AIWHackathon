@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7fff7; /* Soft green background for an inviting feel */
+    color: #333; /* Dark grey for better readability */
+}
+
+header {
+    background: linear-gradient(to right, #b8e994, #ffffff); /* Gentle green to white gradient */
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center navigation items */
+}
+
+nav ul li {
+    padding: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #b8e994; /* Light green for a friendly hover effect */
+}
+
+section {
+    padding: 50px 20px;
+    background-color: #ffffff; /* White background for sections for a clean look */
+    margin: 20px auto; /* Center the sections */
+    max-width: 800px; /* Max width for better readability on larger screens */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Soft shadow for a floating effect */
+}
+
+.cta-button {
+    padding: 10px 25px;
+    background-color: #b8e994; /* Light green that matches the header gradient */
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px; /* Rounded pill shape for a modern look */
+    transition: all 0.3s ease;
+    cursor: pointer; /* Cursor pointer for button interaction */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* Button shadow for depth */
+}
+
+.cta-button:hover {
+    background-color: #a2d98f; /* Slightly darker green for hover */
+    box-shadow: 0 6px 8px rgba(0,0,0,0.3); /* Larger shadow on hover for lifting effect */
+    transform: translateY(-2px); /* Move button up slightly on hover */
+}
+
+footer {
+    background: #b8e994; /* Footer background to match the header */
+    color: #333;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1); /* Shadow to lift footer off the body */
+}
+
+/* AI-themed styles */
+header h1 {
+    font-size: 40px;
+    color: #333;
+}
+
+section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #666; /* Softer color for readability */
+    line-height: 1.6; /* Increased line height for better flow */
+}
+
+footer p {
+    font-size: 16px;
+}
+/* Styles for resource links */
+.resource-link {
+    display: inline-block;
+    color: #4CAF50; /* Green color for links */
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.resource-link:hover, .resource-link:focus {
+    color: #388E3C; /* Darker green on hover */
+    transform: translateX(10px); /* Move right on hover */
+}
+
+.resource-category h3 {
+    color: #333;
+    margin-top: 20px;
+}
+
+.resource-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resource-list li {
+    margin-bottom: 10px;
+}
